@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/item_specs_activity_more_info_button_radius"/>
+
+	<solid android:color="@color/item_specs_activity_more_info_button_background_color"/>
+</shape>

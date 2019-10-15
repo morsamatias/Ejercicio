@@ -1,0 +1,70 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- InitialActivity -->
+	<color name="initial_activity_gradient_constraint_layout_background_color">#FFE600</color>
+	<color name="initial_activity_slogan_text_view_text_color">#FFFFFF</color>
+	<color name="initial_activity_me_li_title_text_view_text_color">#FFFFFF</color>
+	<color name="initial_activity_search_constraint_layout_background_color">#FFFFFF</color>
+	<color name="initial_activity_search_constraint_layout_border_color">#000000</color>
+	<color name="initial_activity_searched_item_edit_text_background_color">@android:color/transparent</color>
+	<color name="initial_activity_searched_item_edit_text_text_color">#333333</color>
+	<color name="initial_activity_search_button_background_color">#FFFFFF</color>
+	<color name="initial_activity_search_button_text_color">#333333</color>
+	<color name="initial_activity_faq_button_text_color">#FFFFFF</color>
+	<color name="initial_activity_toolbar_text_color">#000000</color>
+	
+	<!-- ItemSpecsActivity -->
+	<color name="item_specs_activity_gradient_constraint_layout_background_color">#FFE600</color>
+	<color name="item_specs_activity_view_constraint_layout_border_color">#50CCCCCC</color>
+	<color name="item_specs_activity_header_constraint_layout_background_color">#FFFFFF</color>
+	<color name="item_specs_activity_tittle_text_view_text_color">#333333</color>
+	<color name="item_specs_activity_stock_text_view_text_color">#040C16</color>
+	<color name="item_specs_activity_desciption_text_view_text_color">#333333</color>
+	<color name="item_specs_activity_info_bar_constraint_layout_background_color">#FFFFFF</color>
+	<color name="item_specs_activity_condition_text_view_text_color">#2D3277</color>
+	<color name="item_specs_activity_condition_label_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_ventas_text_view_text_color">#2D3277</color>
+	<color name="item_specs_activity_ventas_two_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_condition_two_text_view_text_color">#2D3277</color>
+	<color name="item_specs_activity_ventas_three_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_location_text_view_text_color">#2D3277</color>
+	<color name="item_specs_activity_location_label_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_price_text_view_text_color">#D9676E</color>
+	<color name="item_specs_activity_price_label_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_price_two_text_view_text_color">#D9676E</color>
+	<color name="item_specs_activity_mercadopago_text_view_text_color">#000000</color>
+	<color name="item_specs_activity_back_button_text_color">#FFFFFF</color>
+	<color name="item_specs_activity_search_constraint_layout_background_color">#FFFFFF</color>
+	<color name="item_specs_activity_other_query_button_text_color">#000000</color>
+	<color name="item_specs_activity_search_item_edit_text_background_color">@android:color/transparent</color>
+	<color name="item_specs_activity_search_item_edit_text_text_color">#000000</color>
+	<color name="item_specs_activity_more_info_button_background_color">#FFFFFF</color>
+	<color name="item_specs_activity_more_info_button_text_color">#333333</color>
+	
+	<!-- ResultsActivity -->
+	<color name="results_activity_gradient_constraint_layout_background_color">#FFFFFF</color>
+	<color name="results_view_holder_result_background_color">#FFFFFF</color>
+	<color name="results_view_holder_item_name_text_view_text_color">#2D3277</color>
+	<color name="results_view_holder_description_text_view_text_color">#333333</color>
+	<color name="results_view_holder_price_text_view_text_color">#000000</color>
+	<color name="results_view_holder_specifications_button_text_color">#000000</color>
+	<color name="results_view_holder_specification2_button_text_color">#000000</color>
+	<color name="results_activity_back_button_text_color">#FFFFFF</color>
+	<color name="results_activity_view_group_constraint_layout_background_color">#FFFFFF</color>
+	<color name="results_activity_more_button_text_color">#000000</color>
+	<color name="results_activity_search_item_edit_text_background_color">@android:color/transparent</color>
+	<color name="results_activity_search_item_edit_text_text_color">#000000</color>
+	<color name="results_activity_previous_button_background_color">#FFFFFF</color>
+	<color name="results_activity_previous_button_text_color">#333333</color>
+	<color name="results_activity_next_button_background_color">#FFFFFF</color>
+	<color name="results_activity_next_button_text_color">#333333</color>
+</resources>

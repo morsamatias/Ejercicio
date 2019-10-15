@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/item_specs_activity_view_constraint_layout_border_color"
+		android:width="@dimen/item_specs_activity_view_constraint_layout_border_size"/>
+</shape>

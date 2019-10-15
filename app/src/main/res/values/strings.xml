@@ -1,0 +1,47 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">BuscadorMercadoLibre</string>
+	
+	<!-- InitialActivity -->
+	<string name="initial_activity_title"></string>
+	<string name="initial_activity_menu_item_title"></string>
+	<string name="initial_activity_slogan_text_view_text">Todo lo que buscas en un solo lugar\n</string>
+	<string name="initial_activity_me_li_title_text_view_text">MercadoLibre</string>
+	<string name="initial_activity_searched_item_edit_text_hint">Buscar productos, marcas y mas</string>
+	<string name="initial_activity_search_button_text">BUSCAR </string>
+	<string name="initial_activity_faq_button_text">FAQ</string>
+	
+	<!-- ItemSpecsActivity -->
+	<string name="item_specs_activity_title"></string>
+	<string name="item_specs_activity_menu_item_title">Item</string>
+	<string name="item_specs_activity_tittle_text_view_text">Dr. What</string>
+	<string name="item_specs_activity_stock_text_view_text">1 Phone Booth, Andromeda</string>
+	<string name="item_specs_activity_desciption_text_view_text">Traveler, dreamer, showman. Occasionally gets into fight, not always survives.</string>
+	<string name="item_specs_activity_condition_text_view_text">365</string>
+	<string name="item_specs_activity_condition_label_text_view_text">Condicion</string>
+	<string name="item_specs_activity_ventas_text_view_text">365</string>
+	<string name="item_specs_activity_ventas_two_text_view_text">Condicion</string>
+	<string name="item_specs_activity_condition_two_text_view_text">365</string>
+	<string name="item_specs_activity_ventas_three_text_view_text">Condicion</string>
+	<string name="item_specs_activity_location_text_view_text">Nuñez</string>
+	<string name="item_specs_activity_location_label_text_view_text">Ubicacion</string>
+	<string name="item_specs_activity_price_text_view_text">58k</string>
+	<string name="item_specs_activity_price_label_text_view_text">Precio</string>
+	<string name="item_specs_activity_price_two_text_view_text">SI</string>
+	<string name="item_specs_activity_mercadopago_text_view_text">Mercadopago\n</string>
+	<string name="item_specs_activity_back_button_text"></string>
+	<string name="item_specs_activity_search_item_edit_text_hint">Buscar productos, marcas y mas</string>
+	<string name="item_specs_activity_more_info_button_text">+  INFO </string>
+	
+	<!-- ResultsActivity -->
+	<string name="results_activity_title"></string>
+	<string name="results_activity_menu_item_title">Item</string>
+	<string name="results_view_holder_item_name_text_view_text">Vulcan</string>
+	<string name="results_view_holder_description_text_view_text">The needs of the few outweight the needs of the many.</string>
+	<string name="results_view_holder_price_text_view_text">$ 1239</string>
+	<string name="results_activity_back_button_text"></string>
+	<string name="results_activity_search_item_edit_text_hint">Buscar productos, marcas y mas</string>
+	<string name="results_activity_previous_button_text">ANTERIOR </string>
+	<string name="results_activity_next_button_text">SIGUIENTE </string>
+</resources>

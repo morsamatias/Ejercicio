@@ -1,0 +1,18 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- InitialActivity -->
+	<style name="InitialActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ItemSpecsActivity -->
+	<style name="ItemSpecsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ResultsActivity -->
+	<style name="ResultsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

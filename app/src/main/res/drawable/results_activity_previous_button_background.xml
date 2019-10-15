@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/results_activity_previous_button_radius"/>
+
+	<solid android:color="@color/results_activity_previous_button_background_color"/>
+</shape>
