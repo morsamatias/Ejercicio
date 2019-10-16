@@ -26,6 +26,7 @@ de los items en el resultado del search).
 ### <a name="ides-utilizados"></a> IDEs utilizados
 - Supernova Studio: Utilizado para el prototipado de la interfaz de usuario
 - Android Studio: Utilizado para el desarrollo de la aplicacion,utilice el lenguaje Java.
+*Importante ver este 
 
 ### <a  name="sdk-minimo"></a> SDK minimo
 - minSdkVersion 27
@@ -33,6 +34,8 @@ de los items en el resultado del search).
 - targetSdkVersion 27
 - Android 8.1 (Oreo)
 
+### <a  name="diagrama-de-objetos"></a> Diagrama de objetos
+<div class="column" align = "center" ><a href = "https://user-images.githubusercontent.com/33075003/66883965-15bf9f00-efa6-11e9-8b3d-2707ce17093a.jpeg"><img src = "https://user-images.githubusercontent.com/33075003/66883965-15bf9f00-efa6-11e9-8b3d-2707ce17093a.jpeg" width="850"></a></div><br>
 
 ### <a  name="guia-de-uso"></a> Guia de uso
 
