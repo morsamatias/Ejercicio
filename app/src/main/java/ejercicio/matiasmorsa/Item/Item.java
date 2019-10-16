@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.List;
 
 public class Item {
 
@@ -26,7 +25,7 @@ public class Item {
     private String condition = "-1";
     private String id = "-1";
     private String imageURL = "-1";
-    private String mercadopago = "-1";
+    private String accepts_mercadopago = "-1";
     private String permalink = "-1";
     private String price = "-1";
     private String quantity = "-1";
@@ -126,8 +125,8 @@ public class Item {
         }
     }
 
-    public void setMercadopago(String _accepts_mercadopago) {
-        mercadopago = _accepts_mercadopago;
+    public void setAccepts_mercadopago(String _accepts_mercadopago) {
+        accepts_mercadopago = _accepts_mercadopago;
     }
     public void setPermalink(String _permalink){
         permalink = _permalink;

@@ -23,13 +23,9 @@ public class ItemRepo {
 
     private static ItemRepo sSoleInstance;
     private MercadoLibre mercadoLibre;
-    private Context context;
     private Controller controller;
     private List<Item> itemList = new ArrayList<Item>();
 
-    public void saveContext(Context _context){
-        context = _context;
-    }
 
 
     public void addArticulo(Item _item){
@@ -62,7 +58,7 @@ public class ItemRepo {
     }
 
     public void loadReady(){
-        controller.loadReady();
+        controller.loadResultsActivity();
     }
     public  void clean(){ itemList = null;}
 

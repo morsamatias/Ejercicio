@@ -35,7 +35,7 @@ public class ControllerInitial implements Controller {
 
 
     // Recibe notificacion de que ya se cargaron los resultados
-    public void loadReady() {
+    public void loadResultsActivity() {
         initialActivity.startActivity(ResultsActivity.newIntent(initialActivity));
         Intent i = new Intent(initialActivity, ResultsActivity.class);
 
@@ -45,7 +45,7 @@ public class ControllerInitial implements Controller {
     }
 
     //Solicita al repo que cargue los articulos
-    public void loadResultsActivity(String _query,int _offset) {
+    public void loadItems(String _query, int _offset) {
         if(!_query.isEmpty()){
 
             RequestQueue requestQueue = Volley.newRequestQueue(initialActivity.getBaseContext());
@@ -60,8 +60,8 @@ public class ControllerInitial implements Controller {
     }
 
     // Interval DEFAULT = 0 (pagina 0)
-    public void loadResultsActivity(String _query) {
-            this.loadResultsActivity(_query,0);
+    public void loadItems(String _query) {
+            this.loadItems(_query,0);
      }
 
 

@@ -46,7 +46,6 @@ public class ResultsActivity extends AppCompatActivity {
 	private ImageButton backButton;
 	private ImageButton newQuery;
 	private ItemRepo itemRepo = ItemRepo.getInstance();
-	private MercadoLibre mercadoLibre;
 	private RecyclerView resultsRecyclerView;
 	private String query;
 
@@ -54,11 +53,9 @@ public class ResultsActivity extends AppCompatActivity {
 	public void onCreate(Bundle _savedInstanceState) {
 		Intent i = getIntent();
 		query = i.getStringExtra("query");
-		itemRepo.saveContext(this);
 		controllerResults.initialize(query,this);
 		super.onCreate(_savedInstanceState);
 		this.setContentView(R.layout.results_activity);
-		mercadoLibre = MercadoLibre.getInstance();
 
 		// Para poder mostrar las imagenes del thumbnail
 		StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();

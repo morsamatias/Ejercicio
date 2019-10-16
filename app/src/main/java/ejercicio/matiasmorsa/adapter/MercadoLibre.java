@@ -88,7 +88,7 @@ public class MercadoLibre {
         item.setPermalink(c.getString("permalink"));
         item.setCondition(c.getString("condition"));
         item.setQuantity(c.getString("available_quantity"));
-        item.setMercadopago(c.getString("accepts_mercadopago"));
+        item.setAccepts_mercadopago(c.getString("accepts_mercadopago"));
         item.setCity(c.getJSONObject("address").getString("city_name"));
         item.setShipping(c.getJSONObject("shipping").getString("free_shipping"));
         JSONArray  jsonAtributes =  c.getJSONArray("attributes");

@@ -36,7 +36,7 @@ public class ControllerResults implements Controller {
     }
 
     @Override
-    public void loadReady() {
+    public void loadResultsActivity() {
 
     }
 
@@ -70,7 +70,7 @@ public class ControllerResults implements Controller {
         if(_newQuery.isEmpty()) {
             Toast.makeText(resultsActivity, "Por favor ingrese un texto para buscar", Toast.LENGTH_SHORT).show();
         }else{
-            controllerInitial.loadResultsActivity(_newQuery);
+            controllerInitial.loadItems(_newQuery);
         }
     }
 
@@ -78,7 +78,7 @@ public class ControllerResults implements Controller {
 
         if(!newQuery.isEmpty()) {
             Log.i("NEW QUERY =", newQuery);
-            controllerInitial.loadResultsActivity(newQuery);
+            controllerInitial.loadItems(newQuery);
         }else{
             Toast.makeText(resultsActivity, "Por favor ingrese un texto para buscar", Toast.LENGTH_SHORT).show();
         }
@@ -90,13 +90,13 @@ public class ControllerResults implements Controller {
     public void addInterval() {
         interval += 4;
         Log.i("Interval = ", String.valueOf(interval));
-        controllerInitial.loadResultsActivity(query, interval);
+        controllerInitial.loadItems(query, interval);
     }
 
     public void decreaseInterval(){
         interval -= 4;
         if (interval >= 0){
-            controllerInitial.loadResultsActivity(query, interval);
+            controllerInitial.loadItems(query, interval);
         }else{
             interval = 0;
         }

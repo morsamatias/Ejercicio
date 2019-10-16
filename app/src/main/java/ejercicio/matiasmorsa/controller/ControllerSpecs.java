@@ -3,7 +3,6 @@ package ejercicio.matiasmorsa.controller;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.widget.Toast;
 import ejercicio.matiasmorsa.activity.InitialActivity;
 import ejercicio.matiasmorsa.activity.ItemSpecsActivity;
@@ -33,7 +32,7 @@ public class ControllerSpecs implements Controller {
 
 
     @Override
-    public void loadReady() {
+    public void loadResultsActivity() {
 
     }
 
@@ -51,7 +50,7 @@ public class ControllerSpecs implements Controller {
     }
 
     public void back(String _query) {
-        controllerInitial.loadResultsActivity(_query);
+        controllerInitial.loadItems(_query);
     }
 
     public void onMoreInfo(Item _item) {
@@ -71,7 +70,7 @@ public class ControllerSpecs implements Controller {
 
     public void onNewQuery(String _newQuery ) {
         if(!_newQuery.isEmpty()){
-            controllerInitial.loadResultsActivity(_newQuery);
+            controllerInitial.loadItems(_newQuery);
         }else{
            Toast.makeText(itemSpecsActivity, "Por favor ingrese un texto para buscar", Toast.LENGTH_SHORT).show();
         }

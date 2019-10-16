@@ -6,7 +6,6 @@ package ejercicio.matiasmorsa.adapter;
 
 
 
-import android.net.Uri;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatImageButton;
 import android.support.v7.widget.RecyclerView;
@@ -25,7 +24,7 @@ import ejercicio.matiasmorsa.repository.ItemRepo;
 
 public class ResultsActivityRecycler extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 	public static final int RESULTS_VIEW_HOLDER_VIEW_TYPE = 1;
-	public static final List<Integer> FIVE_CELLS = Arrays.asList(RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE);
+	public static final List<Integer> FOUR_CELLS = Arrays.asList(RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE,RESULTS_VIEW_HOLDER_VIEW_TYPE);
 
 	@Override
 	public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -45,12 +44,12 @@ public class ResultsActivityRecycler extends RecyclerView.Adapter<RecyclerView.V
 
 	@Override
 	public int getItemViewType(int position) {
-		return FIVE_CELLS.get(position);
+		return FOUR_CELLS.get(position);
 	}
 
 	@Override
 	public int getItemCount() {
-		return FIVE_CELLS.size();
+		return FOUR_CELLS.size();
 	}
 
 
@@ -61,7 +60,6 @@ public class ResultsActivityRecycler extends RecyclerView.Adapter<RecyclerView.V
 		private ImageView itemImageView = null;
 		private ItemRepo itemRepo;
 		private Item item;
-		private ResultsActivity resultsActivity;
 		private TextView itemNameTextView = null;
 		private TextView descriptionTextView = null;
 		private TextView priceTextView = null;
@@ -71,7 +69,6 @@ public class ResultsActivityRecycler extends RecyclerView.Adapter<RecyclerView.V
 		public ResultsViewHolder(View itemView) {
 			super(itemView);
 			itemRepo = ItemRepo.getInstance();
-			resultsActivity = controllerResults.getResultActivity();
 			item = itemRepo.pushArticulo();
 			this.init();
 		}

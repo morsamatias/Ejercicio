@@ -62,7 +62,7 @@ public class InitialActivity extends AppCompatActivity {
 		// Configuro SearchButton
 		searchButton = this.findViewById(R.id.search_button);
 		searchButton.setOnClickListener((view) -> {
-			controllerInitial.loadResultsActivity(String.valueOf(this.searchedItemEditText.getText()));
+			controllerInitial.loadItems(String.valueOf(this.searchedItemEditText.getText()));
 		});
 
 		// Configuro FAQ
